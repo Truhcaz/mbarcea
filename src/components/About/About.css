@@ -1,0 +1,43 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5rem;
+    min-height: 85vh;
+    background-color: var(--red);
+    text-align: center;
+}
+
+.about-container .profil-pct{
+    width: 100%;
+    max-width: 300px;
+    background-color: var(--white);
+    border: solid 5px var(--black);
+    border-radius: 50%;
+}
+
+.about-container p{
+    font-size: 1.25rem;
+    width: 60%;
+    margin: 0.75rem 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icons img{
+    padding: 0.5rem;
+}

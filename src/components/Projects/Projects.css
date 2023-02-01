@@ -1,0 +1,23 @@
+.projects{
+    margin: 0;
+    background-color: var(--white);
+}
+
+.miniProjects{
+    margin: 0;
+    background-color: #fff6f0;
+}
+
+.projects h1{
+    text-decoration: underline;
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.miniProjects h1{
+    text-decoration: underline;
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+}
