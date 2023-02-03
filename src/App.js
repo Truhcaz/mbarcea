@@ -20,9 +20,9 @@ function App() {
     {
       name:'Movie App',
       about: "Une application Web qui affiche les films du moments ainsi que leurs notes via l'API MovieDB",
-      codeURL:'https://github.com/Truhcaz/cat-generator',
+      codeURL:'https://github.com/Truhcaz/js-50-projects/tree/main/17-movie-app',
       apiURL:'',
-      websiteURL:'https://truhcaz.github.io/cat-generator/',
+      websiteURL:'https://truhcaz.github.io/js-50-projects/17-movie-app',
       previewURL:'/MovieAppPreview.png'
     },
     {
