@@ -1,0 +1,15 @@
+:root{
+  --white: #f8e7cf;
+  --black: #282828;
+  --black2: #0d0d0d;
+  --red: #ec684a;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}

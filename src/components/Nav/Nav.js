@@ -10,7 +10,7 @@ const Nav = () => {
        <nav className='nav-left'>
         <a href='https://github.com/Truhcaz'>Github</a>
         <a href='mailto:mateo.brc0@gmail.com?subject=Bonjour'>Mail</a>
-        <a href='/CV_FullStack.pdf'>CV</a>
+        <a href='/CV_FrontEnd_2024.pdf'>CV</a>
        </nav>
     </nav>
     )

@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 5rem;
+    padding-top: 4.5rem;
     min-height: 85vh;
-    background-color: var(--red);
+    background-color: var(--black2);
+    color: #fff;
     text-align: center;
 }
 
@@ -17,14 +18,33 @@
     border-radius: 50%;
 }
 
+.illustration{
+    width: 400px;
+    height: 400px;
+}
+
 .about-container p{
     font-size: 1.25rem;
-    width: 60%;
+    width: 100%;
     margin: 0.75rem 0;
 }
 
 .bold{
     font-weight: bold;
+}
+.about__text{
+    color: #EDE9D0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__text h1{
+    
+}
+.red{
+    color: var(--red);
 }
 
 .underline{

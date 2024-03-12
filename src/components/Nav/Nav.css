@@ -18,8 +18,7 @@
 }
 
 .navigation a:hover {
-    transition: background-color .4s linear;
-    background-color:#1f1f1f;
+    color:#A12612;
 }
 
 .nav-right{

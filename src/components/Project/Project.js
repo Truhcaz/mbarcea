@@ -1,6 +1,6 @@
 import './Project.css';
 
-const Project = ({name, about, technologies, codeURL, apiURL, websiteURL, previewURL}) => {
+const Project = ({name, about, codeURL, apiURL, websiteURL, previewURL}) => {
     return(
         <div className='project'>
             <div className='project-about'>
@@ -12,7 +12,7 @@ const Project = ({name, about, technologies, codeURL, apiURL, websiteURL, previe
                 </div>
             </div>
            <div className='project-img'>
-                <img src={previewURL} alt={name}/>
+                <img src={'/imgs'+previewURL} alt={name}/>
            </div>
         </div>
     )

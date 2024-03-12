@@ -1,17 +1,25 @@
 import './About.css';
-
+import { ReactComponent as Illustration } from "../../asset/undraw_static_website_re_x70h.svg";
 const About = () => {
     return(
         <div className='about-container'>
-            <img 
-            className='profil-pct'
-            src='/moi.png'
-            alt='me'
-            />
-            <h1>Bonjour, je suis <span className='underline'>Matéo</span></h1>
-            <p> Anciennement étudiant à la <span className='bold'> Faculté des Sciences de Montpellier </span>,  j'ai obtenu une <span className='underline'>Licence en Informatique</span>. </p>
-            <p> Pendant cette formation j'ai décidé de me spécialiser dans le domaine qui me plaisait le plus, qui est le développement Web. </p>
-            <p> Je me suis formé, seul, en suivant des cours sur <span className='bold'> Udemy </span> et en <span className='bold'> créant des applications web</span> qui m'ont permis d'apprendre les différents langages/framewor/librairies du web et leur utilisation à travers différents cas pratiques. </p>
+
+            <div className='about__text'>
+
+            <h1> Développeur Web <span className='red'>Front-End</span></h1>
+            <p>
+                Bonjour, je suis <span className='red'>Matéo</span>, diplômé d'une licence informatique de la Faculté des Sciences à Montpellier.
+            </p>
+            <p>
+                Passionné par le développement web, j'ai acquis mes compétences en <span className='red'>autodidacte</span> grâce à des cours en ligne et à travers 
+                le développement de <span className='red'>projets personnels</span>. 
+            </p>
+            <p>
+                À la recherche d'opportunités professionnelles, je suis enthousiaste à l'idée de mettre en pratique mes connaissances afin 
+                de contribuer à des projets innovants.
+            </p>
+            </div>
+
             <div className='icons'>
                 <a href='https://developer.mozilla.org/fr/docs/Web/HTML'><img src='/icons/html.png' alt='html-logo'/></a>
                 <a href='https://developer.mozilla.org/fr/docs/Web/CSS'><img src='/icons/css.png' alt='css-logo'/></a>
@@ -23,6 +31,7 @@ const About = () => {
                 <a href='https://github.com/'><img src='/icons/github.png' alt='github-logo'/></a>
             </div>
             
+            <Illustration className='illustration'></Illustration>
             </div>
     )
 }
